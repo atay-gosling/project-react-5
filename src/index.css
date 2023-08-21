@@ -11,3 +11,142 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-4{
+  width: 33.33%;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.Header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #6e6e6e;
+  padding: 20px;
+}
+
+.HeaderLink{
+  text-decoration: none;
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 10px;
+  color: #000000;
+  font-size: 18px;
+}
+
+.HelpNav{
+  display: flex;
+  gap: 30px;
+}
+
+.cart{
+  background-color: #d9d7d7;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: #0c0b0b 2px solid;
+  width: 300px;
+  margin: 10px;
+  padding: 0px 0px 40px 0px;
+}
+
+.ingri{
+  background-color: #989898;
+  padding: 50px;
+  border: 2px solid #0c0b0b;
+  margin: 10px 0px 0px 0px;
+  border-radius: 10px;
+  color: #fdf5f5;
+  line-height: 70px;
+}
+
+.helpbox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutdrink{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin: 0px 0px 20px 0px;
+}
+
+.span{
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: black;
+  color: #a8a8ff;
+}
+
+button{
+  margin: 15px 0px 0px 0px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.cartH2{
+  color: #ffffff;
+  margin: 0px 0px 20px 0px;
+}
+
+.cartImg{
+  border-radius: 10px;
+  border: solid 2px black;
+}
+
+.Link{
+  text-decoration: none
+}
+
+.helpdiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.col-6{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.HelpRow{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.col-6 p{
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.col-6 img{
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.before-after{
+  display: flex;
+  justify-content: space-between;
+}
